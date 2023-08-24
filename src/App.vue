@@ -1,20 +1,19 @@
 <template>
-  <h1 @click="changeHi">{{ hi }}</h1>
+  <Header />
+  <Footer />
 </template>
+
 <script>
-import { ref } from "vue";
+import Header from "./components/header.vue";
+import Footer from "./components/footer.vue";
+
 export default {
+  components: {
+    Header,
+    Footer,
+  },
   setup() {
-    const hi = ref("Chanty Welcome");
-
-    const changeHi = () => {
-      hi.value = "KHMER";
-    };
-
-    return {
-      hi,
-      changeHi,
-    };
+    return {};
   },
 };
 </script>

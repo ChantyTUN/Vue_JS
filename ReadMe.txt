@@ -5,4 +5,13 @@ V-Router
 Condition
 State management
 ============
-Vus 2 (view API and Component API)
+Vus 2 (
+    A-Option API 
+    B-Component API (recomment)
+
+============
+template 
+style 
+script 
+==============
+ Cut Component API
