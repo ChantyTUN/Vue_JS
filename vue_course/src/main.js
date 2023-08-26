@@ -5,10 +5,12 @@ import App from "./App.vue";
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "./components/Home.vue";
 import About from "./components/About.vue";
+// pinia
+import { createPinia } from "pinia";
 // routes
 const routes = [
   {
-    path: "/sdfsdfd",
+    path: "/",
     component: Home,
     name: "Home",
     children: [],
@@ -25,6 +27,10 @@ const router = createRouter({
   history: createWebHistory(),
   routes: routes,
 });
+// import pinia
+const pinia = createPinia();
+
 const app = createApp(App);
 app.use(router);
+app.use(pinia);
 app.mount("#app");
