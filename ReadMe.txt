@@ -50,3 +50,9 @@ Ex: item in myboo
 // Pinia 
 Pinia stat management 
 store value 
+
+Reactive .js just libry 
+
+// Tailwindcss working with style
+template for html 
+script for js 
